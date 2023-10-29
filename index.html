@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Certification</title>
+</head>
+<body>
+	<h1><p align="center">Certification</p></h1>
+	<p>Earn your PHP Certificate today</p>
+	<p>Please answer the questions below:</p>
+
+	<form method="post" action="results.php">
+		<label>Fullame: <input type="text" name="fullname" placeholder="Fullame..." required></label>
+
+		<p>What does PHP stand for?:</p>
+		<ol>
+			<li><input type="radio" name="question1" value="1">Private Home Page</li>
+			<li><input type="radio" name="question1" value="2">Hypertext Preprocessor</li>
+			<li><input type="radio" name="question1" value="3">Personal Hypertext Processor</li>
+		</ol>
+		<p>How do you write "Hello World" in PHP</p>
+		<ol>
+			<li><input type="radio" name="question2" value="1">cout<<"Helo World";</li>
+			<li><input type="radio" name="question2" value="2">Document.Write("Hello World");</li>
+			<li><input type="radio" name="question2" value="3">echo"Hello World";</li>
+		</ol>
+		<p>All variables in PHP start with which symbol?</p>
+		<ol>
+			<li><input type="radio" name="question3" value="1">&</li>
+			<li><input type="radio" name="question3" value="2">$</li>
+			<li><input type="radio" name="question3" value="3">!</li>
+		</ol>
+		<p>How do you get information from a from that is submitted using the "get" method?</p>
+		<ol>
+			<li><input type="radio" name="question4" value="1">$_GET[];</li>
+			<li><input type="radio" name="question4" value="2">Request.Form;</li>
+			<li><input type="radio" name="question4" value="3">Request.QueryString;</li>
+		</ol>
+		<p>When using the POST method, variables are displayed in the URL:</p>
+		<ol>
+			<li><input type="radio" name="question5" value="1">True</li>
+			<li><input type="radio" name="question5" value="2">False</li>
+		</ol>
+		<p>In PHP you can use both single quotes ('') and double quotes ("") for strings:</p>
+		<ol>
+			<li><input type="radio" name="question6" value="1">True</li>
+			<li><input type="radio" name="question6" value="2">False</li>
+		</ol>
+		<p>What is the correct way to create a function in PHP?</p>
+		<ol>
+			<li><input type="radio" name="question7" value="1">create myFunction()</li>
+			<li><input type="radio" name="question7" value="2">new_function myFunction()</li>
+			<li><input type="radio" name="question7" value="3">function myFunction()</li>
+		</ol>
+		<p>PHP allows you to send emails directly from a script:</p>
+		<ol>
+			<li><input type="radio" name="question8" value="1">True</li>
+			<li><input type="radio" name="question8" value="2">False</li>
+		</ol>
+		<p>What is the correct way to add 1 to the $count variable?</p>
+		<ol>
+			<li><input type="radio" name="question9" value="1">++count;</li>
+			<li><input type="radio" name="question9" value="2">count++;</li>
+			<li><input type="radio" name="question9" value="3">$count++;</li>
+			<li><input type="radio" name="question9" value="4">$count=+1;</li>
+		</ol>
+		<p>What a correct way to add a comment in PHP</p>
+		<ol>
+			<li><input type="radio" name="question10" value="1">/*...*/</li>
+			<li><input type="radio" name="question10" value="2">*\...\*</li>
+			<li><input type="radio" name="question10" value="3">/Comment...</li>
+		</ol>
+		<p>Which one of these variables has an illegal name?</p>
+		<ol>
+			<li><input type="radio" name="question11" value="1">$myVar</li>
+			<li><input type="radio" name="question11" value="2">$my_var</li>
+			<li><input type="radio" name="question11" value="3">$my-Var</li>
+		</ol>
+
+		<button>Submit</button>
+	</form>
+</body>
+</html>
